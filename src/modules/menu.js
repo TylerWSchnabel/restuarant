@@ -59,7 +59,7 @@ function menu(){
     pancakesHead.textContent = "Bigfoot's Pancakes";
     let pancakesDes = document.createElement('p');
     pancakesDes.className="menuDes" ;
-    pancakesDes.textContent = "Named after hero cop Bigfoot Bjornsen and his love for pancakes. They migh not be as good as his mother's, but they will still have you saying 'Motto Pannukeiku!'"
+    pancakesDes.textContent = "Named after hero cop Bigfoot Bjornsen and his love for pancakes. They might not be as good as his mother's, but they will still have you screaming 'Motto Pannukeiku!'"
 
     
     let menuDrink = document.createElement('div');
