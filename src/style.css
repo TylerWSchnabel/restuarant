@@ -25,10 +25,14 @@ body {
 }
 .navBtns {
     width:200px;
+    height: 2.5rem;
     background-color: black;
     color:  var(--pink);
     font-family: neon;
+    font-size: 1rem;
     border-radius: 8px;
+    padding-top: .75em;
+    padding-bottom: .75em;
     justify-self: center;
 }
 
@@ -43,6 +47,7 @@ body {
     font-style: italic;
     font-size: 4rem;
     color: rgb(255, 0, 136);
+    margin-bottom: 30px;
 }
 
 #restName {
@@ -108,4 +113,41 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
     font-size: 1rem;
+}
+
+.contTitle {
+    padding-top: 4rem;
+    align-self: center;
+    margin: auto;
+    font-size: 2.5rem;
+    font-family: neon;
+    color: black;
+    text-shadow: 2px 2px var(--pink);
+    margin-bottom: 3rem;
+}
+
+.contInfo {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.map {
+    height: 400px;
+    width: 400px;
+}
+
+.contInfo {
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.contLabel {
+    text-decoration: underline;
+    font-size: 1.7rem;
+    font-family: neon;
 }

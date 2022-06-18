@@ -6,9 +6,10 @@ function contact() {
     contTitle.className="contTitle";
     contTitle.textContent="Contact";
     let info = document.createElement('div');
+    info.className="contInfo";
     let phoneTitle = document.createElement('p');
     phoneTitle.className="contLabel";
-    phoneTitle.textContent="Phone: ";
+    phoneTitle.textContent="Phone";
     let phoneInfo = document.createElement('p');
     phoneInfo.className="contInfo";
     phoneInfo.textContent="(310) 555-7937";
@@ -17,21 +18,21 @@ function contact() {
     addressTitle.textContent="Address";
     let addressInfo = document.createElement("p");
     addressInfo.className="contInfo";
-    addressInfo.textContent="611 N Henry Ford Ave\nSan Pedro, CA 90744";
+    addressInfo.textContent="611 N Henry Ford Ave, San Pedro, CA 90744";
     let mapCont = document.createElement("div");
     mapCont.setAttribute("id","map");
 
     contHead.appendChild(contTitle);
+    info.appendChild(contHead);
     info.appendChild(phoneTitle);
     info.appendChild(phoneInfo);
     info.appendChild(addressTitle);
     info.appendChild(addressInfo);
     info.appendChild(mapCont);
-    content.appendChild(contTitle);
     content.appendChild(info);
 
     // Initialize and add the map
-function initMap() {
+
     // The location of Uluru
     const barge = { lat:33.77713494304627, lng:-118.24300882275132 };
     // The map, centered at Uluru
@@ -46,7 +47,7 @@ function initMap() {
     });
   }
   
-  window.initMap = initMap;
-}
+
+
 
 export default contact
