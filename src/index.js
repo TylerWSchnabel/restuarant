@@ -3,6 +3,7 @@ import './style.css';
 import './iv-pizza.jpeg';
 import about from './modules/about.js'
 import menu from './modules/menu.js'
+import contact from './modules/contact';
 
 function restuarantPage(){
         let content = document.getElementById('content');
@@ -19,6 +20,7 @@ function restuarantPage(){
         let contact = document.createElement('button');
         contact.textContent= "Contact";
         contact.setAttribute("class","navBtns");
+        contact.addEventListener("click", loadContact);
         navBar.appendChild(home);
         navBar.appendChild(menu);
         navBar.appendChild(contact);
@@ -52,5 +54,11 @@ function loadMenu(){
     menu();
 }
 
-loadMenu();
+function loadContact(){
+    content.textContent = ""
+    restuarantPage();
+    contact();
+}
+
+loadContact();
 
