@@ -30,21 +30,27 @@ function contact() {
     info.appendChild(addressInfo);
     info.appendChild(mapCont);
     content.appendChild(info);
+    
 
     // Initialize and add the map
 
     // The location of Uluru
-    const barge = { lat:33.77713494304627, lng:-118.24300882275132 };
+    
     // The map, centered at Uluru
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
-      center: barge,
-    });
-    // The marker, positioned at Uluru
-    const marker = new google.maps.Marker({
-      position: uluru,
-      map: map,
-    });
+    function initMap() {
+        var barge = { lat:33.77713494304627, lng:-118.24300882275132 };
+
+        var map = new google.maps.Map(document.getElementById('map'),{
+            zoom: 11,
+            center: barge
+        });
+        const marker = new google.maps.Marker({
+            position: barge,
+            map: map,
+          });
+    };
+    
+    initMap();
   }
   
 

@@ -54,7 +54,7 @@ function menu(){
     admiralDes.textContent="Spitfire roasted pig served with fresh pineapple, rice, and a generous portion of Spam";
     let pancakes = document.createElement('div');
     pancakes.className="item";
-    let pancakesHead = document.createElement('hp2');
+    let pancakesHead = document.createElement('p');
     pancakesHead.className='menuItem';
     pancakesHead.textContent = "Bigfoot's Pancakes";
     let pancakesDes = document.createElement('p');

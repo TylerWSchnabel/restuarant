@@ -132,18 +132,16 @@ body {
     margin: auto;
     text-align: center;
     padding-bottom: 2rem;
-}
-
-.map {
-    height: 400px;
-    width: 400px;
-}
-
-.contInfo {
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     line-height: 1rem;
+}
+
+#map {
+    margin: auto;
+    height: 400px;
+    width: 400px;
 }
 
 .contLabel {

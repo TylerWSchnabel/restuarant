@@ -40,7 +40,8 @@ function init(){
     restuarantPage();
     about();
 }
-//init();
+
+
 
 function loadPage(){
     content.textContent = ""
@@ -60,5 +61,4 @@ function loadContact(){
     contact();
 }
 
-loadContact();
-
+init();
