@@ -66,7 +66,7 @@ function menu(){
     menuDrink.className = "itemTitle";
     let drinkHead = document.createElement("p");
     drinkHead.className="menuHead";
-    drinkHead.textContent="Drinks";
+    drinkHead.textContent="Cocktails";
     let drinkSub = document.createElement('p');
     drinkSub.className='menuSub';
     drinkSub.textContent = "You're gonna want to get good and fucked up before this meal";
