@@ -1,0 +1,111 @@
+@font-face {
+    font-family: neon;
+    src: url(./neon-bines.regular.ttf);
+}
+:root{
+    --pink: rgb(255, 0, 136)
+}
+html {
+    background-color: black;
+}
+body {
+    /*height:100%;*/
+    width:70%;
+    margin: auto;
+    background-color: burlywood;
+    
+}
+
+#navBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navBtns {
+    width:200px;
+    background-color: black;
+    color:  var(--pink);
+    font-family: neon;
+    border-radius: 8px;
+    justify-self: center;
+}
+
+#hero {
+    display: grid;
+    background-image: url(./iv-pizza.jpeg);
+    height: 423px;
+    font-family: neon;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+    font-size: 4rem;
+    color: rgb(255, 0, 136);
+}
+
+#restName {
+    align-self: center;
+    justify-self: center;
+}
+
+#about {
+    text-align: center;
+    justify-self: center;
+    font-family: neon;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#aboutTitle {
+    font-size: 2.5em;
+    text-shadow: 2px 2px var(--pink);
+}
+
+#aboutCont {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
+}
+
+.menuHead {
+    font-size: 2.5em;
+    font-family: neon;
+    color: black;
+    text-shadow: 2px 2px var(--pink);
+    margin-bottom: 1px;
+}
+.menuSub {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-weight: bold;
+    font-family: neon;
+}
+
+.itemTitle {
+    padding-bottom: 20px;
+    border-bottom: 2px black;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.menuItem {
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 1rem;
+}
